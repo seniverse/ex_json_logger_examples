@@ -25,4 +25,13 @@ defmodule JSONLoggerExamplesTest do
     assert %{"msg" => ^msg, "level" => "debug", "track_id" => "IAMATrackId"} =
              Poison.decode!(log_msg)
   end
+
+  test "log with track_id metadata in another way" do
+    Logger.configure_backend(:console, metadata: [:track_id])
+    msg = "I should have a track id attached at track_id"
+    log_msg = capture_log(fn -> Logger.debug(msg, track_id: "IAMATrackId") end)
+
+    assert %{"msg" => ^msg, "level" => "debug", "track_id" => "IAMATrackId"} =
+             Poison.decode!(log_msg)
+  end
 end
