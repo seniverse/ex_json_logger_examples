@@ -10,7 +10,7 @@ See [ex_json_logger - GitHub](https://github.com/rentpath/ex_json_logger) for mo
 
 See [Logger - Elixir](https://hexdocs.pm/logger/Logger.html) for official doc about `Logger`.
 
-## Targets
+## Explanations
 
 1. JSON is friendly for fields extension. We can add any fields we want in practice to a JSON via [Logger.Metadata](https://hexdocs.pm/logger/Logger.html#module-metadata) or other ways.
 
