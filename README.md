@@ -9,3 +9,9 @@ See [test/json_logger_examples_test.exs](test/json_logger_examples_test.exs) for
 See [ex_json_logger - GitHub](https://github.com/rentpath/ex_json_logger) for more instructions about usage.
 
 See [Logger - Elixir](https://hexdocs.pm/logger/Logger.html) for official doc about `Logger`.
+
+## Targets
+
+1. JSON is friendly for fields extension. We can add any fields we want in practice to a JSON via [Logger.Metadata](https://hexdocs.pm/logger/Logger.html#module-metadata) or other ways.
+
+2. Just printing log to `stdout`. See [Logs - 12factor](https://12factor.net/logs) for its reason. Let's develop [Cloud-Native](https://pivotal.io/cloud-native) Apps!
