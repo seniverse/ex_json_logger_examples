@@ -1,21 +1,11 @@
 # JSONLoggerExamples
 
-**TODO: Add description**
+[![Build Status](https://travis-ci.org/seniverse/ex_json_logger_examples.svg?branch=master)](https://travis-ci.org/seniverse/ex_json_logger_examples)
 
-## Installation
+Usage examples centered on how to log messages in JSON format in Elixir.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_json_logger_examples` to your list of dependencies in `mix.exs`:
+See [test/json_logger_examples_test.exs](test/json_logger_examples_test.exs) for usage cases and [config/config.exs](config/config.exs) for how to do configuration for logger to set a custom formatter.
 
-```elixir
-def deps do
-  [
-    {:ex_json_logger_examples, "~> 0.1.0"}
-  ]
-end
-```
+See [ex_json_logger - GitHub](https://github.com/rentpath/ex_json_logger) for more instructions about usage.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_json_logger_examples](https://hexdocs.pm/ex_json_logger_examples).
-
+See [Logger - Elixir](https://hexdocs.pm/logger/Logger.html) for official doc about `Logger`.

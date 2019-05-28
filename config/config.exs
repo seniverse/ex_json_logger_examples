@@ -28,3 +28,8 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env()}.exs"
+config :logger, :console,
+  format: {ExJsonLogger, :format},
+  matadata: :all,
+  # `colors` could be disabled in production
+  colors: [enabled: false]
