@@ -19,7 +19,7 @@ iex> JSONLoggerExamples.log "abc"
 iex> {"time":"2019-05-29 17:31:31.424","pid":"#PID<0.197.0>","msg":"abc","module":"Elixir.JSONLoggerExamples","line":6,"level":"info","function":"log/1","file":"lib/json_logger_examples.ex","application":"ex_json_logger_examples"}
 ```
 
-## Targets
+## Explanations
 
 1. JSON is friendly for fields extension. We can add any fields we want in practice to a JSON via [Logger.Metadata](https://hexdocs.pm/logger/Logger.html#module-metadata) or other ways.
 
