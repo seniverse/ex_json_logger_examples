@@ -30,6 +30,6 @@ use Mix.Config
 #     import_config "#{Mix.env()}.exs"
 config :logger, :console,
   format: {ExJsonLogger, :format},
-  matadata: :all,
+  metadata: :all,
   # `colors` could be disabled in production
   colors: [enabled: false]
